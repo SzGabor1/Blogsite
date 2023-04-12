@@ -1,0 +1,119 @@
+html {
+  background-color: rgb(252, 252, 252);
+}
+
+.leftBanner {
+  background-color: rgb(80, 224, 235);
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 300px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  text-align: center;
+}
+
+.leftBanner h1 {
+  margin-top: 100px;
+  color: #000000;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.leftBanner img {
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.leftBanner h2 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.leftBanner a {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.leftBanner a:hover {
+  border-bottom: 1px solid #000000;
+}
+
+.content {
+  margin-left: 300px; /* Same as the width of the sidebar */
+  height: 100%;
+}
+
+.content .searchBar {
+  background-color: rgb(221, 215, 215);
+  height: 150px;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content .searchBar input {
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+  text-align: center;
+}
+.content .searchBar button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+  background-color: rgb(80, 224, 235);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Blogs {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.blogPost {
+  width: 800px;
+  height: 200px;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.blogPost img {
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin-left: 20px;
+}
+
+.blogPost span {
+  float: right;
+  margin-right: 10px;
+  margin-top: 30px;
+}
