@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import profileImage from './img/profile.jpg';
-import BlogList from './Bloglist';
+import BlogList from './BlogList';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord, faFacebook, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 import './App.css';
