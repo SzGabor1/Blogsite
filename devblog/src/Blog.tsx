@@ -10,7 +10,7 @@ function App() {
   const [posts, setPosts] = useState<Post[]>([]);
 
   async function fetchPosts() {
-    const response = await fetch('http://localhost:3301/api/posts');
+    const response = await fetch('/api/posts');
     const data = await response.json();
     setPosts(data);
   }
