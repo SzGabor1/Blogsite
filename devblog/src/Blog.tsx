@@ -1,31 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import profileImage from './img/profile.jpg';
 import BlogList from './BlogList';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDiscord, faFacebook, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDiscord, faFacebook, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { Post } from './types';
 
-function Blog() {
-  const [posts, setPosts] = useState([
-    {
-      id: 1,
-      title: 'Create a blog site',
-      date: 'April 1, 2023',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet enim quis eros euismod dignissim.'
-    },
-    {
-      id: 2,
-      title: 'How to write clean code',
-      date: 'March 25, 2023',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet enim quis eros euismod dignissim.'
-    },
-    {
-      id: 3,
-      title: '10 tips for better productivity',
-      date: 'March 18, 2023',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet enim quis eros euismod dignissim.'
-    }
-  ]);
+function App() {
+  const [posts, setPosts] = useState<Post[]>([]);
+
+  async function fetchPosts() {
+    const response = await fetch('http://localhost:3301/api/posts');
+    const data = await response.json();
+    setPosts(data);
+  }
+
+  useEffect(() => {
+    fetchPosts();
+  }, []);
 
   return (
     <>
@@ -42,17 +34,12 @@ function Blog() {
         </div>
       </div>
       <div className="content">
-      <h1>Post finder</h1>
-        <div className="searchBar">
-          <form className='inputForm'>
-          <input type='text' placeholder='Search blog posts' />
-      <button className='inputButton' type='submit'>Search</button>
-    </form>
-    </div>
-    <BlogList posts={posts} />
-  </div>
-</>
-);
+        <div className="blog-list">
+          <BlogList posts={posts} />
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default Blog;
+export default App;
