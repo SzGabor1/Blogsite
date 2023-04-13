@@ -3,7 +3,7 @@
       "id": 1,
       "title": "First post of the whole project",
       "date": "2023.04.12",
-      "text": "I have created this website where I will document the progress of the project, and I will strive to record every small and big milestone. This website running on vercel.com, this website gets data from a selected github repository and displays it on the website."
+      "text": "I have created this website where I will document the progress of the project, and I will strive to record every small and big milestone. This website running on vercel.com, and gets data from a selected github repository and displays it on the website."
     },
     {
       "id": 2,
