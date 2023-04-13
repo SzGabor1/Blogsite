@@ -32,7 +32,8 @@ const BlogList: React.FC<Props> = ({ posts }) => {
         <div className="blog-post" key={post.id}>
           <h2>{post.title}</h2>
           <p>{post.text}</p>
-          <p>{post.date}</p>
+        <a href={post.link} target="_blank" rel="noopener noreferrer">{post.link}</a>
+          <p className="date">{post.date}</p>
         </div>
       ))}
     </div>
