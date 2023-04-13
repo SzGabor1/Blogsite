@@ -1,15 +1,15 @@
 [
     {
       "id": 1,
-      "title": "My First Blog Post",
-      "date": "2021-01-01",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tristique quam, sed fringilla leo lobortis id. Donec iaculis lobortis metus, in maximus nunc dapibus non. Donec luctus, nulla vitae posuere venenatis, tellus nisl maximus elit, ut vestibulum est leo sit amet augue. Aenean porttitor quam id nibh bibendum euismod. Nam non laoreet metus. Aenean non odio metus. Pellentesque eu blandit augue. Integer a quam vitae augue hendrerit malesuada. Sed elementum, est quis hendrerit vestibulum, urna dui dapibus nibh, ut aliquet augue enim in urna."
+      "title": "First post of the whole project",
+      "date": "2023.04.12",
+      "text": "I have created this website where I will document the progress of the project, and I will strive to record every small and big milestone. This website running on vercel.com, this website gets data from a selected github repository and displays it on the website."
     },
     {
       "id": 2,
-      "title": "My Second Blog Post",
-      "date": "2021-01-15",
-      "text": "Sed vel leo eget magna gravida lacinia. Etiam blandit venenatis elementum. Sed vulputate ex nec congue semper. Sed sit amet augue id dolor blandit suscipit eget ac nisl. Aliquam accumsan consequat leo, non eleifend nisi auctor quis. Integer eleifend nibh sed magna fermentum, in ullamcorper turpis facilisis. Praesent tristique rutrum enim, non placerat quam ultrices quis. Fusce vitae tristique arcu. Fusce efficitur justo ipsum, vel bibendum mauris rhoncus a. Proin ac purus varius, malesuada eros vitae, convallis odio. Integer vel luctus mi, id sagittis nisi. Pellentesque ac iaculis odio. Aliquam at bibendum turpis. Suspendisse mollis nisl leo, a pharetra sem varius vel. Praesent quis libero vel nulla sodales efficitur non non est."
+      "title": "Rethink the how this website works",
+      "date": "2023-04-13",
+      "text":   "Removed the whole backend, and now I am using a simple json file to store these posts. I will probably use a database in the future, but for now this is good enough. Next step will be to create a python program wich will generate and update the json file."
     }
   ]
   

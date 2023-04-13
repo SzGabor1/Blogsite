@@ -5,14 +5,14 @@ interface Props {
   posts: Post[];
 }
 
-
 const BlogList: React.FC<Props> = ({ posts }) => {
-  console.log(posts); // Check if the data being passed has the 'content' property
-
   const [searchTerm, setSearchTerm] = useState("");
 
-  const filteredPosts = posts.filter((post) =>
-    post.title.toLowerCase().includes(searchTerm.toLowerCase())
+  const filteredPosts = posts.filter(
+    (post) =>
+      post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      post.text.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      post.date.toLowerCase().includes(searchTerm.toLowerCase())
   ).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   return (
@@ -21,13 +21,10 @@ const BlogList: React.FC<Props> = ({ posts }) => {
         <form className="inputForm">
           <input
             type="text"
-            placeholder="Search posts by title"
+            placeholder="Search posts by title, date, or text"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
-          <button type="submit" className="inputButton">
-            Search
-          </button>
         </form>
       </div>
 
