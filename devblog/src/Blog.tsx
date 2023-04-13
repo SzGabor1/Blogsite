@@ -2,21 +2,16 @@ import React, { useState, useEffect } from 'react';
 import profileImage from './img/profile.jpg';
 import BlogList from './BlogList';
 import './App.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDiscord, faFacebook, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDiscord, faFacebook, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { Post } from './types';
+import data from './data.json';
 
 function App() {
   const [posts, setPosts] = useState<Post[]>([]);
 
-  async function fetchPosts() {
-    const response = await fetch('/api/posts');
-    const data = await response.json();
-    setPosts(data);
-  }
-
   useEffect(() => {
-    fetchPosts();
+    setPosts(data as Post[]); // cast the imported data to Post[]
   }, []);
 
   return (
