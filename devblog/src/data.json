@@ -8,7 +8,7 @@
     },
     {
         "id": 2,
-        "title": "Rethink the how this website works",
+        "title": "Rethink how this website works",
         "date": "2023-04-13",
         "text": "Removed the whole backend, and now I am using a simple json file to store these posts. I will probably use a database in the future, but for now this is good enough. Next step will be to create a python program wich will generate and update the json file.",
         "link": ""
