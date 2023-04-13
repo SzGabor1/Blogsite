@@ -1,17 +1,23 @@
 [
     {
-      "id": 1,
-      "title": "First post of the whole project",
-      "date": "2023.04.12",
-      "text": "I have created this website where I will document the progress of the project, and I will strive to record every small and big milestone. This website running on vercel.com, and gets data from a selected github repository and displays it on the website.",
-        "link":""
+        "id": 1,
+        "title": "First post of the whole project",
+        "date": "2023.04.12",
+        "text": "I have created this website where I will document the progress of the project, and I will strive to record every small and big milestone. This website running on vercel.com, and gets data from a selected github repository and displays it on the website.",
+        "link": ""
     },
     {
-      "id": 2,
-      "title": "Rethink the how this website works",
-      "date": "2023-04-13",
-      "text":   "Removed the whole backend, and now I am using a simple json file to store these posts. I will probably use a database in the future, but for now this is good enough. Next step will be to create a python program wich will generate and update the json file.",
-      "link": ""
+        "id": 2,
+        "title": "Rethink the how this website works",
+        "date": "2023-04-13",
+        "text": "Removed the whole backend, and now I am using a simple json file to store these posts. I will probably use a database in the future, but for now this is good enough. Next step will be to create a python program wich will generate and update the json file.",
+        "link": ""
+    },
+    {
+        "id": 3,
+        "title": "Python post editor",
+        "date": "2023-04-15",
+        "text": "Created a simple python code to make me able edit and create new posts.",
+        "link": ""
     }
-  ]
-  
+]
