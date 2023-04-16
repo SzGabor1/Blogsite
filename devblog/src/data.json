@@ -15,9 +15,16 @@
     },
     {
         "id": 3,
-        "title": "Python post editor",
+        "title": "Stared to make a demo game",
         "date": "2023-04-15",
-        "text": "Created a simple python code to make me able edit and create new posts.",
-        "link": ""
+        "text": "Following a tutorial on youtube, I have started to make a simple game. This game will be used to test and try things out. Right now i'm only for the first part of the tutorial, but I will continue to work on it.",
+        "link": "https://imgur.com/a/UqlPAny"
+    },
+    {
+        "id": 4,
+        "title": "Setting up requirements",
+        "date": "2023-04-16",
+        "text": "I have started setting up the requirements for the project by creating a GitHub repository and writing down the project requirements. Additionally, I have generated the storyline for the game.",
+        "link": "shorturl.at/dDUZ2"
     }
 ]
