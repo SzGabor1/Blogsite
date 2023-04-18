@@ -26,5 +26,12 @@
         "date": "2023-04-16",
         "text": "I have started setting up the requirements for the project by creating a GitHub repository and writing down the project requirements. Additionally, I have generated the storyline for the game.",
         "link": "shorturl.at/dDUZ2"
+    },
+    {
+        "id": 5,
+        "title": "I continued working on the demo game today.",
+        "date": "2023-04-16",
+        "text": "I experimented with camera controls and collision detection. I searched for a free-to-use tileset that will provide the game's graphics and used it to create a level. I spent 3 hours on it, only to realize at the end that I need to scale the tileset images. So I made some progress, but also learned a lot. To be continued.",
+        "link": "https://imgur.com/a/v2g2Ysg"
     }
 ]
