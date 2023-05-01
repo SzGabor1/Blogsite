@@ -40,5 +40,12 @@
         "date": "2023-04-29",
         "text": "I haven't had much time to work on the project recently, but I didn't have any school assignments or studying to do, so I spent some time on it before work. During today's session, I created the map in Tiled and imported it into the game. There are still some issues because I need to slice the tileset to be able to handle the objects properly.",
         "link": ""
+    },
+    {
+        "id": 7,
+        "title": "Smallest things makes the biggest problems",
+        "date": "2023-05-01",
+        "text": "Due to the operation of the program, I had to cut up the tileset into 64x64 pixel squares, so I created a Python code that sliced and named them for me. However, when I tried to load the images into the game, it displayed seemingly random images. I spent over an hour searching for the error until I found it. The -os.walk()- Python function traverses the directory and returns the path, but not in order, for example, it returned 210 after 21, instead of 22. I had thought of this last, so it took a lot of time, but fortunately, I managed to solve it with a little sorting method.",
+        "link": "https://imgur.com/a/W1UhB2u"
     }
 ]
