@@ -47,5 +47,12 @@
         "date": "2023-05-01",
         "text": "Due to the operation of the program, I had to cut up the tileset into 64x64 pixel squares, so I created a Python code that sliced and named them for me. However, when I tried to load the images into the game, it displayed seemingly random images. I spent over an hour searching for the error until I found it. The -os.walk()- Python function traverses the directory and returns the path, but not in order, for example, it returned 210 after 21, instead of 22. I had thought of this last, so it took a lot of time, but fortunately, I managed to solve it with a little sorting method.",
         "link": "https://imgur.com/a/W1UhB2u"
+    },
+    {
+        "id": 7,
+        "title": "Buildings, player animations, create github repo",
+        "date": "2023-05-11",
+        "text": "I was sick last week, but now I'm back, and I have made some progress. I created a GitHub repository for the project and added the first version of the game to it. I also created a building layer in Tiled and made a small village. Furthermore, I added some animations to the player, including move, idle, and attack animations. However, there are a few bugs with the images because some corners became visible during the splitting process. I will fix it later. Additionally, I need to optimize any graphics-related items since there are many unnecessary files.",
+        "link": "https://github.com/SzGabor1/pygame-ms"
     }
 ]
