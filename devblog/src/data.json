@@ -61,5 +61,12 @@
         "date": "2023-05-23",
         "text": "Finally, there is some action. I've implemented the basics of the weapon system. The player can now attack with multiple weapons, but they need to collect the weapons before they can use them, which will be integrated with the inventory/quest system. I have added the images related to the player, and this is an awesome feature in pygame. Additionally, I have created a small video showcasing the progress, which you can see below.",
         "link": "https://youtu.be/T3w95BAEYhU"
+    },
+    {
+        "id": 10,
+        "title": "Enemies, attack animations, and more",
+        "date": "2023-06-12",
+        "text": "After a successful exam period, I am resuming development. Today, I implemented the enemy system. They have all the necessary basic functionalities: they move towards the player within a certain range and take damage from both the enemy and the player. From now on, my goal is to dedicate 6 hours a day to ensure successful progress.",
+        "link": ""
     }
 ]
