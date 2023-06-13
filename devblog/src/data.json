@@ -68,5 +68,12 @@
         "date": "2023-06-12",
         "text": "After a successful exam period, I am resuming development. Today, I implemented the enemy system. They have all the necessary basic functionalities: they move towards the player within a certain range and take damage from both the enemy and the player. From now on, my goal is to dedicate 6 hours a day to ensure successful progress.",
         "link": ""
+    },
+    {
+        "id": 11,
+        "title": "Particle effects",
+        "date": "2023-06-13",
+        "text": "I have implemented the particle effects today. When we knock down the grass, small leaves fall, various effects appear during battles, and also when the enemy dies. The tutorial I'm following is slowly coming to an end, and individual development is about to begin. I'm really excited about it! Check the video about the progression. ;)",
+        "link": "https://youtu.be/DHseAKUt5q8"
     }
 ]
