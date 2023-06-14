@@ -75,5 +75,12 @@
         "date": "2023-06-13",
         "text": "I have implemented the particle effects today. When we knock down the grass, small leaves fall, various effects appear during battles, and also when the enemy dies. The tutorial I'm following is slowly coming to an end, and individual development is about to begin. I'm really excited about it! Check the video about the progression. ;)",
         "link": "https://youtu.be/DHseAKUt5q8"
+    },
+    {
+        "id": 12,
+        "title": "End of the tutorial, talent system, sounds",
+        "date": "2023-06-14",
+        "text": "Finally, I have finished the tutorial. You can find the link below. I have just completed the Talent menu and the sounds. However, I'm not really fond of them, so I will definitely overhaul them completely. But since I have created these, I will have a sample to create it according to my own concept.",
+        "link": "https://www.youtube.com/watch?v=QU1pPzEGrqw"
     }
 ]
