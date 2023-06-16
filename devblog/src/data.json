@@ -85,9 +85,16 @@
     },
     {
         "id": 13,
-        "title": "I love this shit tho, basic npc system",
+        "title": "I love this shit tho, basics of npc system",
         "date": "2023-06-14",
         "text": "I couldn't stop today, so I started working on the next important element, which is the NPC system. I created a very basic dialogue window for it, and I'll continue working on it tomorrow. But for today, I'm really going to stop now :D",
         "link": "https://imgur.com/a/0Yk5fma"
+    },
+    {
+        "id": 14,
+        "title": "Completed the quest mechanics",
+        "date": "2023-06-16",
+        "text": "I created a schedule today to outline which tasks I will be working on each day regarding the project, and I will strive to stick to it. Additionally, I programmed and managed to complete the quest system, but I'm not sure if it's the most object-oriented thing in the world :S",
+        "link": "https://youtu.be/wOSdW6F7e_g"
     }
 ]
