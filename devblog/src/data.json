@@ -103,5 +103,12 @@
         "date": "2023-06-19",
         "text": "Yesterday I realized that the code works and there are no functional issues with it. However, it does not comply with the OOP principles, and this would result in bugs later on. Therefore, I had to make some modifications to it.",
         "link": ""
+    },
+    {
+        "id": 16,
+        "title": "Main menu, and fairly bad resolution settings",
+        "date": "2023-06-20",
+        "text": "Today I started working on designing and creating the main menu, but it will be further developed later. However, it will undergo modifications when I implement the save and character creation features. Currently, the game starts with the 'load' button, and within the settings menu, you can adjust the resolution. However, you need to restart the game twice for it to work properly, so it's not yet one of the most well-functioning systems.",
+        "link": "https://youtu.be/UBv4PVMHSPE"
     }
 ]
