@@ -96,5 +96,12 @@
         "date": "2023-06-16",
         "text": "I created a schedule today to outline which tasks I will be working on each day regarding the project, and I will strive to stick to it. Additionally, I programmed and managed to complete the quest system, but I'm not sure if it's the most object-oriented thing in the world :S",
         "link": "https://youtu.be/wOSdW6F7e_g"
+    },
+    {
+        "id": 15,
+        "title": "Application of OOP principles",
+        "date": "2023-06-19",
+        "text": "Yesterday I realized that the code works and there are no functional issues with it. However, it does not comply with the OOP principles, and this would result in bugs later on. Therefore, I had to make some modifications to it.",
+        "link": ""
     }
 ]
