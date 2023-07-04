@@ -117,5 +117,12 @@
         "date": "2023-06-21",
         "text": "I started the day with some minor bug fixes that involved the constants in the settings. I had to put them into a class so that I could properly implement the resolution settings. I asked for the help of my friend, László Stremler, and after brainstorming for a while and a few minutes of investigation, we managed to implement the resolution settings very successfully. However, as a trade-off, screen tearing occurred.",
         "link": ""
+    },
+    {
+        "id": 18,
+        "title": "Save, loot systems, and graphics",
+        "date": "2023-07-04",
+        "text": "I haven't posted for a while, but the work hasn't stopped. Last week, I dealt with several things, and I'll try to summarize them briefly. First of all, I drew my own graphics, although I was inspired by the Ninja Adventure tileset, mine turned out to be much more unique and personalized. Then I worked on loot dropping; when a monster dies, it can drop money and experience points. The latest major task I completed today was the save system. I tried to pay attention to using solid principles during development, and I managed to do it more or less successfully.",
+        "link": "https://youtu.be/YQkG4cXtsao"
     }
 ]
